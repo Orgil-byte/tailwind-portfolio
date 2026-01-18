@@ -65,16 +65,26 @@ const Project = ({ projectImg, projectName, aboutProject }) => {
         <h2 className="text-xl tracking-wide font-medium">{projectName}</h2>
         <p className="text-slate-700 leading-loose">{aboutProject}</p>
         <div className="flex gap-4 ">
-          <img
-            className="w-8 h-8 object-cover opacity-50 hover:opacity-100 transition duration-300 delay-75 ease-out"
-            src="projects/github.png"
-            alt="Project codes"
-          />
-          <img
-            className="w-8 h-8 object-cover opacity-50 hover:opacity-100 transition duration-300 delay-75 ease-out"
-            src="projects/link.png"
-            alt="Project link"
-          />
+          <a
+            href="https://github.com/Orgil-byte/tailwind-portfolio"
+            target="_blank"
+          >
+            <img
+              className="w-8 h-8 object-cover opacity-50 hover:opacity-100 transition duration-300 delay-75 ease-out"
+              src="projects/github.png"
+              alt="Project codes"
+            />
+          </a>
+          <a
+            href="https://tailwind-portfolio-steel-chi.vercel.app/"
+            target="_blank"
+          >
+            <img
+              className="w-8 h-8 object-cover opacity-50 hover:opacity-100 transition duration-300 delay-75 ease-out"
+              src="projects/link.png"
+              alt="Project link"
+            />
+          </a>
         </div>
       </div>
     </div>
